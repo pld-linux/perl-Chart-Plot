@@ -32,7 +32,7 @@ horizontal data and you want a bar or pie chart, I have successfully
 used the GIFgraph and Chart::* modules, available on CPAN.)
 
 %description -l pl
-Ten modu³ zosta³ napisany do tworzena obrazów zawieraj±cych wykresy
+Ten modu³ zosta³ napisany do tworzenia obrazów zawieraj±cych wykresy
 dwuwymiarowych danych. Inne znane autorowi interfejsy do GD.pm nie
 potrafi³y obs³u¿yæ danych ujemnych, albo potrafi³y przedstawiaæ tylko
 dane o równym rozk³adzie (do przedstawienia danych o równym rozk³adzie
