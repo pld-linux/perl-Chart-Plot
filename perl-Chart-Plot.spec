@@ -52,7 +52,8 @@ wystarcza modu³ GIFgraph i modu³y Chart::* dostêpne w CPAN).
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 cp -a demo.cgi $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
