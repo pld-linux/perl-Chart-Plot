@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Chart
-%define	pnam	Plot
+%define		pdir	Chart
+%define		pnam	Plot
 Summary:	Chart::Plot - plot two dimensional data in an image
 Summary(pl):	Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
 Name:		perl-Chart-Plot
