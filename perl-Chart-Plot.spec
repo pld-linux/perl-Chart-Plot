@@ -40,7 +40,7 @@ wystarcza modu³ GIFgraph i modu³y Chart::* dostêpne w CPAN).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
