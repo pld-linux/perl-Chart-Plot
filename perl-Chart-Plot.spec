@@ -6,7 +6,7 @@
 %define		pdir	Chart
 %define		pnam	Plot
 Summary:	Chart::Plot - plot two dimensional data in an image
-Summary(pl):	Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
+Summary(pl.UTF-8):   Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
 Name:		perl-Chart-Plot
 Version:	0.11
 Release:	4
@@ -31,13 +31,13 @@ evenly spaced horizontal data. (If you have evenly spaced or nonmetric
 horizontal data and you want a bar or pie chart, I have successfully
 used the GIFgraph and Chart::* modules, available on CPAN.)
 
-%description -l pl
-Ten modu≥ zosta≥ napisany do tworzenia obrazÛw zawieraj±cych wykresy
+%description -l pl.UTF-8
+Ten modu≈Ç zosta≈Ç napisany do tworzenia obraz√≥w zawierajƒÖcych wykresy
 dwuwymiarowych danych. Inne znane autorowi interfejsy do GD.pm nie
-potrafi≥y obs≥uøyÊ danych ujemnych, albo potrafi≥y przedstawiaÊ tylko
-dane o rÛwnym rozk≥adzie (do przedstawienia danych o rÛwnym rozk≥adzie
-lub poziomych niemetrycznych danych na wykresie s≥upkowym lub ko≥owym
-wystarcza modu≥ GIFgraph i modu≥y Chart::* dostÍpne w CPAN).
+potrafi≈Çy obs≈Çu≈ºyƒá danych ujemnych, albo potrafi≈Çy przedstawiaƒá tylko
+dane o r√≥wnym rozk≈Çadzie (do przedstawienia danych o r√≥wnym rozk≈Çadzie
+lub poziomych niemetrycznych danych na wykresie s≈Çupkowym lub ko≈Çowym
+wystarcza modu≈Ç GIFgraph i modu≈Çy Chart::* dostƒôpne w CPAN).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
