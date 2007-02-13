@@ -6,7 +6,7 @@
 %define		pdir	Chart
 %define		pnam	Plot
 Summary:	Chart::Plot - plot two dimensional data in an image
-Summary(pl.UTF-8):   Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
+Summary(pl.UTF-8):	Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
 Name:		perl-Chart-Plot
 Version:	0.11
 Release:	4
