@@ -9,7 +9,7 @@ Summary:	Chart::Plot - plot two dimensional data in an image
 Summary(pl.UTF-8):	Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
 Name:		perl-Chart-Plot
 Version:	0.11
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
