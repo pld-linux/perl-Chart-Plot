@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Chart
 %define		pnam	Plot
+%include	/usr/lib/rpm/macros.perl
 Summary:	Chart::Plot - plot two dimensional data in an image
 Summary(pl.UTF-8):	Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
 Name:		perl-Chart-Plot
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	22105348d7ff33603e37fb470c0ce003
+URL:		http://search.cpan.org/dist/Chart-Plot/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-GD
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
