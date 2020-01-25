@@ -4,7 +4,6 @@
 
 %define		pdir	Chart
 %define		pnam	Plot
-%include	/usr/lib/rpm/macros.perl
 Summary:	Chart::Plot - plot two dimensional data in an image
 Summary(pl.UTF-8):	Chart::Plot - gaficzne przedstawianie dwuwymiarowych dane
 Name:		perl-Chart-Plot
